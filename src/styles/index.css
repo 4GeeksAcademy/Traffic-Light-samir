@@ -1,12 +1,114 @@
+.todo{
+    background-image: url("https://wallpaper.forfun.com/fetch/24/242a6efd21c0ffa30aac657fc530f061.jpeg");
+    height: 100vh;
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
-/* 
+.cuerpo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.orden {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
 
-*/
+.Semaforo {
+    width: 100px;
+    max-height: 380px;
+    background-color: #010101;
+    border-radius: 10px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  
+.button {
+  border-radius: 10px;
+  background-color: #830076;
+  color: white;
+  border: 2px solid #ffffff;
+  margin: 4px;
+}
+
+.button:hover {
+  border-radius: 10px;
+  background-color: #41003b;
+}
+
+.button:active {
+  background-color: #e64cd2; 
+  color: #000000
+}
+
+.button2 {
+  border-radius: 10px;
+  background-color: #000e6b;
+  color: white;
+  border: 2px solid #ffffff;
+}
+
+.button2:hover {
+  border-radius: 10px;
+  background-color: #000736;
+}
+
+.button2:active {
+  background-color: #2339c9; 
+  color: #000000
+}
+
+  .luces {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin: 10px;
+  }
+  
+  .roja {
+    background-color: #7d0000;
+  }
+  
+  .amarilla {
+    background-color: #5b5b00;
+  }
+  
+  .verde {
+    background-color: #006b00;
+  }
+
+  .azul {
+    background-color: #0d1571;
+  }
+
+  .encendido{
+    box-shadow: 0 0 50px rgb(255, 255, 255);
+  }
+
+  .roja.encendido {
+    background-color: #ff0000;
+    
+  }
+  
+  .amarilla.encendido {
+    background-color: #ffff00;
+  }
+  
+  .verde.encendido {
+    background-color: #00ff00;
+  }
+
+  .azul.encendido {
+    background-color: #2b00ff;
+  }
